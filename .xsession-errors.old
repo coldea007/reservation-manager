@@ -1,0 +1,56 @@
+Xsession: X session started for student at Mon 27 May 14:01:44 EEST 2019
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/student/.Xauthority
+localuser:student being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+OpenGL version: 3.
+dbus-update-activation-environment: setting HTTPS_PROXY=http://172.16.1.2:3128/
+dbus-update-activation-environment: setting USER=student
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/student
+dbus-update-activation-environment: setting DESKTOP_SESSION=lightdm-xsession
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting https_proxy=http://172.16.1.2:3128/
+dbus-update-activation-environment: setting LOGNAME=student
+dbus-update-activation-environment: setting http_proxy=http://172.16.1.2:3128/
+dbus-update-activation-environment: setting PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting GDM_LANG=en_GB.utf8
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting ftp_proxy=http://172.16.1.2:3128/
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LANG=en_GB.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lightdm-xsession
+dbus-update-activation-environment: setting XAUTHORITY=/home/student/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/student
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=lightdm-xsession
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/student
+dbus-update-activation-environment: setting FTP_PROXY=http://172.16.1.2:3128/
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting HTTP_PROXY=http://172.16.1.2:3128/
+/usr/bin/x-session-manager: X server already running on display :0
+
+** (xfce4-session:931): CRITICAL **: polkit_unix_process_set_property: assertion 'val != -1' failed
+xfce4-session-Message: SSH authentication agent is already running
+gpg-agent[948]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:931): xfce4-session-WARNING **: gpg-agent returned no PID in the variables
+
+(xfwm4:951): libxfce4ui-WARNING **: ICE I/O Error
+
+(xfce4-panel:955): libxfce4ui-WARNING **: ICE I/O Error
+
+(xfwm4:951): libxfce4ui-WARNING **: Disconnected from session manager.
+
+(xfce4-panel:955): libxfce4ui-WARNING **: Disconnected from session manager.
+** Message: Got disconnected from the session message bus; retrying to reconnect every 10 seconds
